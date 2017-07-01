@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <img src="Assets/cloudVineyards.png" height="167" width="200" />
-        <h1>Cloud Vineyands</h1>
+        <h1>Cloud Vineyards</h1>
         <p class="lead">Sistema de seguimiento y control de viñedos por medio del análisis de datos de estaciones de sensores inalámbricas</p>
         
     </div>
