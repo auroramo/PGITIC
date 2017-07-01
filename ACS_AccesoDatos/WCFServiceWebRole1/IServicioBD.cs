@@ -15,9 +15,9 @@ namespace WCFServiceWebRole1
     {
 
         [OperationContract]
-        DataSet RecuperarRegistros();
+        DataSet RecuperarLecturas();
         [OperationContract]
-        int InsertarRegistro(string estacion, decimal temperatura, decimal presion, string nivelUV, int luzAmbiente, DateTime fechaHora);
+        int InsertarLectura(int estacion, decimal longitud, decimal latitud, int temperatura, int humedad, int presion, decimal velocidadViento, int nubes, DateTime fechaHora);
     }
 
 
