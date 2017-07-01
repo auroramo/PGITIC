@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RecuperarLecturas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RecuperarLecturasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RecuperarLecturasResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarLectura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estacion" type="xs:int" />
+        <xs:element minOccurs="0" name="longitud" type="xs:decimal" />
+        <xs:element minOccurs="0" name="latitud" type="xs:decimal" />
+        <xs:element minOccurs="0" name="temperatura" type="xs:int" />
+        <xs:element minOccurs="0" name="humedad" type="xs:int" />
+        <xs:element minOccurs="0" name="presion" type="xs:int" />
+        <xs:element minOccurs="0" name="velocidadViento" type="xs:decimal" />
+        <xs:element minOccurs="0" name="nubes" type="xs:int" />
+        <xs:element minOccurs="0" name="fechaHora" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarLecturaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertarLecturaResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

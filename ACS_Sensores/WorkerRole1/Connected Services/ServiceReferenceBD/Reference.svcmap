@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6b1f932a-9a24-475c-a171-df4bf042794e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ArrayList" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://acsaccesodatos.cloudapp.net/ServicioBD.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioBD.xsd" MetadataType="Schema" ID="d2eca917-ba9f-4071-a01f-faf35ac91528" SourceId="1" SourceUrl="http://acsaccesodatos.cloudapp.net/ServicioBD.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioBD.wsdl" MetadataType="Wsdl" ID="5a40da3a-ffb2-40b6-9690-49cb7b3f52ee" SourceId="1" SourceUrl="http://acsaccesodatos.cloudapp.net/ServicioBD.svc?wsdl" />
+    <MetadataFile FileName="ServicioBD1.xsd" MetadataType="Schema" ID="39dd7f10-8bad-4330-810f-3e8a0b1d2216" SourceId="1" SourceUrl="http://acsaccesodatos.cloudapp.net/ServicioBD.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioBD2.xsd" MetadataType="Schema" ID="296defc2-eb91-4a86-bcb5-047a13d4af45" SourceId="1" SourceUrl="http://acsaccesodatos.cloudapp.net/ServicioBD.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioBD.disco" MetadataType="Disco" ID="cd11cef3-9d22-45e7-95a9-cabaef87c912" SourceId="1" SourceUrl="http://acsaccesodatos.cloudapp.net/ServicioBD.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
