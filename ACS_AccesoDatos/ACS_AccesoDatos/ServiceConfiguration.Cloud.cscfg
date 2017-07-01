@@ -3,7 +3,7 @@
   <Role name="WCFServiceWebRole1">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=mediasvcfkk1xdwzkmjnq;AccountKey=$(_mediasvcfkk1xdwzkmjnq.key_)" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
