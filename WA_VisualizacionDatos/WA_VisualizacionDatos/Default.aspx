@@ -19,7 +19,7 @@
         <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>
                 <asp:Timer ID="Timer1" runat="server" Interval="30000" ontick="Timer1_Tick"></asp:Timer>
-                <asp:GridView ID="GridView1" runat="server" OnRowDataBound="GridView1_RowDataBound"></asp:GridView>
+                <asp:GridView ID="GridView1" runat="server" OnRowDataBound="GridView1_RowDataBound" HeaderStyle-BackColor="Teal" HeaderStyle-ForeColor="White"></asp:GridView>
             </ContentTemplate>
         </asp:UpdatePanel>
         <br />
