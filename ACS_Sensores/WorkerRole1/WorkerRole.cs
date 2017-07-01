@@ -79,7 +79,7 @@ namespace WorkerRole1
                 }
                 catch (Exception ex) { }
 
-                    await Task.Delay(10000);
+                    await Task.Delay(1080000);
             }
         }
 

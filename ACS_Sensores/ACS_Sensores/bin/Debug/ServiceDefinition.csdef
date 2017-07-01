@@ -16,7 +16,7 @@
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="D:\AURORA\Repos\ACS_Sensores\ACS_Sensores\rcf\Debug\WorkerRole1Content\" />
+        <SourceDirectory path="D:\AURORA\Repos\PGITIC\ACS_Sensores\ACS_Sensores\rcf\Debug\WorkerRole1Content\" />
       </Content>
     </Contents>
   </WorkerRole>
