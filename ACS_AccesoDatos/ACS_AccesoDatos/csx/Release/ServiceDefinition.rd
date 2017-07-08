@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ACS_AccesoDatos" generation="1" functional="0" release="0" Id="160213af-af97-4f85-b3f4-298b708401f5" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ACS_AccesoDatos" generation="1" functional="0" release="0" Id="a027681d-41cc-47ba-b440-4725fad59f9f" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="ACS_AccesoDatosGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -70,9 +70,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="d04420d5-e2eb-4cee-821e-7c1d4a0ce023" ref="Microsoft.RedDog.Contract\ServiceContract\ACS_AccesoDatosContract@ServiceDefinition">
+    <implementation Id="7d879640-25b1-47f3-af7a-16a50316c756" ref="Microsoft.RedDog.Contract\ServiceContract\ACS_AccesoDatosContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="cb7c68e6-ed7c-448a-97b8-72f00b6a6c85" ref="Microsoft.RedDog.Contract\Interface\WCFServiceWebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="87bacbf3-cf55-4e68-bb48-c0e0e1ffd592" ref="Microsoft.RedDog.Contract\Interface\WCFServiceWebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/ACS_AccesoDatos/ACS_AccesoDatosGroup/WCFServiceWebRole1:Endpoint1" />
           </inPort>

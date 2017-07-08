@@ -14,7 +14,7 @@ namespace WCFServiceWebRole1
     // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class ServicioBD : IServicioBD
     {
-        SqlConnection con = new SqlConnection(@"Server=tcp:52.232.83.25\SQLEXPRESS,1433;Database=SensoresDB;User ID=ti1;Password=pass_mala;Trusted_Connection=False;Encrypt=False;Connection Timeout=60");
+        SqlConnection con = new SqlConnection(@"Server=tcp:52.233.194.81\SQLEXPRESS,1433;Database=SensoresDB;User ID=ti1;Password=pass_mala;Trusted_Connection=False;Encrypt=False;Connection Timeout=60");
         //Creamos un nuevo comando
         SqlCommand miComm = new SqlCommand();
 

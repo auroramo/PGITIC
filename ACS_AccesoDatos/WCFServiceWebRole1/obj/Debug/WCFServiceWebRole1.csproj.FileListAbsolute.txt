@@ -56,3 +56,4 @@ D:\AURORA\Repos\PGITIC\ACS_AccesoDatos\WCFServiceWebRole1\bin\zh-Hans\System.Spa
 D:\AURORA\Repos\PGITIC\ACS_AccesoDatos\WCFServiceWebRole1\bin\zh-Hant\System.Spatial.resources.dll
 D:\AURORA\Repos\PGITIC\ACS_AccesoDatos\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.dll
 D:\AURORA\Repos\PGITIC\ACS_AccesoDatos\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.pdb
+D:\AURORA\Repos\PGITIC\ACS_AccesoDatos\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.csprojResolveAssemblyReference.cache

@@ -61,3 +61,4 @@ D:\AURORA\Repos\PGITIC\WA_VisualizacionDatos\WA_VisualizacionDatos\bin\es\System
 D:\AURORA\Repos\PGITIC\WA_VisualizacionDatos\WA_VisualizacionDatos\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
 D:\AURORA\Repos\PGITIC\WA_VisualizacionDatos\WA_VisualizacionDatos\obj\Release\WA_VisualizacionDatos.dll
 D:\AURORA\Repos\PGITIC\WA_VisualizacionDatos\WA_VisualizacionDatos\obj\Release\WA_VisualizacionDatos.pdb
+D:\AURORA\Repos\PGITIC\WA_VisualizacionDatos\WA_VisualizacionDatos\obj\Release\WA_VisualizacionDatos.csprojResolveAssemblyReference.cache
